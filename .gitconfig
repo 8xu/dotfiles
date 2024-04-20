@@ -1,12 +1,8 @@
 [user]
 	name = Dragomir Mihai
 	email = mihai@nyxkd.ro
-	signingkey = ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDV22O0vJ4Ef00uNiP7GfDye8bE7jGGCPGlM/NdGYEkizsgpm3qr2OoY+6InQ1X6tGKNuUlD/9ufRmCduCmKwhSWwkBiSMozxJ76gshVyMjNl82PZpqnzRP/PVtiqDBhhClj12lqnOOFEOBNR+JUnmkqJYffElhyNUZ4d5psDQtSEQl5xUJVuzHQ+XXha6xIxSwiq01Oy1TzCADVDxu+9Fp9bqczSzswjsQQbsJmWSnMVcEkmH7/M+KZ/ipHyIGKMn0BpyXMgODlVfb6xmma5SNGQeArMynWLcNTIXV1WOgWGR4ZeEjtSJnCp4+KoGEvIxAIKX2tpGbsn/hESgxo1e3K860w5KdCCVh4RyoefDNW3jRIPiYCPFdci5Ky5xbyOEk923b1mLk/HxUxCGVeZCtPahxFF7DzynHn4a6bpletin1dca0PV0SZQxdGkFs3ZiEFnOfmlPsDZ/6KcEPa2El8nlrE6xyAPbMVcThFW5YqGHpQ0rEvOcMD8rFJG4c7ofeFtnIn7dKXZREndqH6OzhCldoNMnwNSTwuW8Hj7I7exhvLdOgrVbGw1pW0Dc4VNkwpPpQUZfHnRMypcLU6H/uEoRY0XRqaPLbLv3l/SMid2GXPckB0NgSi0XBLAZNVdxmhouyc+49XnACM5yIIahr5na3t/hWaTp2wf2XXgdLtQ==
+	signingkey = ~/.ssh/id_rsa.pub
 [commit]
 	gpgsign = true
 [gpg]
 	format = ssh
-
-# Only for macOS
-[gpg "ssh"]
-	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
