@@ -2,6 +2,8 @@
 	name = Dragomir Mihai
 	email = mihai@nyxkd.ro
 	signingkey = ~/.ssh/id_rsa.pub
+[init]
+	defaultBranch = main
 [commit]
 	gpgsign = true
 [gpg]
