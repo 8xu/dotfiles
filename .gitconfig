@@ -3,7 +3,7 @@
 	email = mihai@nyxkd.ro
 	signingkey = ~/.ssh/id_rsa.pub
 [init]
-	defaultBranch = main
+	defaultBranch = master
 [commit]
 	gpgsign = true
 [gpg]
