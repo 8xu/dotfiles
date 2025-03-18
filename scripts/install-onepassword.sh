@@ -42,7 +42,7 @@ TMP_DIR=$(mktemp -d)
 ZIP_FILE="${TMP_DIR}/op.zip"
 
 # Download 1Password CLI
-echo "⬇️  Downloading 1Password CLI..."
+echo "Downloading 1Password CLI..."
 if ! wget -q "https://cache.agilebits.com/dist/1P/op2/pkg/${VERSION}/op_linux_${ARCH}_${VERSION}.zip" -O "$ZIP_FILE"; then
     echo "Failed to download 1Password CLI. Check your internet connection."
     exit 1
