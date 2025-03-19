@@ -3,6 +3,11 @@
 
 ## Usage
 
+### Adding SSH public key to authorized_keys
+```bash
+wget -qO- https://github.com/8xu.keys >> ~/.ssh/authorized_keys
+```
+
 ### Installing 1Password
 
 To install [1Password](https://1password.com), run the following command:
